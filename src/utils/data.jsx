@@ -115,7 +115,7 @@ export const PROJECTS = [
     description:
       "TextUtils is a versatile web application that provides users with various text manipulation tools. Users can convert text to uppercase, lowercase, capitalize each word, and count the number of words and characters.",
     technologies: ["HTML", "Bootstrap", "React"],
-    gitLink: "https://github.com/bhavikpatel9/TextUtils"
+    gitLink: "https://github.com/bhavikpatel9/my-first-react-app"
   },
   {
     title: "To-Do List Web Application",
