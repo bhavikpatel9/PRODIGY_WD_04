@@ -6,6 +6,7 @@ import softskillIcon from '../assets/images/softskill-icon.png';
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
+import project4 from "../assets/projects/project-4.jpg";
 
 export const SKILLS = [
     {
@@ -109,6 +110,14 @@ export const PROJECTS = [
     gitLink: "https://github.com/bhavikpatel9/footware-react-webApp-sorting-searching-functionality"
   },
   {
+    title: "TextUtils Web Application",
+    image: project4,
+    description:
+      "TextUtils is a versatile web application that provides users with various text manipulation tools. Users can convert text to uppercase, lowercase, capitalize each word, and count the number of words and characters.",
+    technologies: ["HTML", "Bootstrap", "React"],
+    gitLink: "https://github.com/bhavikpatel9/TextUtils"
+  },
+  {
     title: "To-Do List Web Application",
     image: project3,
     description:
@@ -116,5 +125,6 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React", "Tailwind"],
     gitLink: "https://github.com/bhavikpatel9/Todo-list"
   },
+  
 ];
 
