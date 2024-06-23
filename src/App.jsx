@@ -6,7 +6,7 @@ import Skills from './components/Skills/Skills'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
-import Technologies from './components/Technologies'
+import AboutMe from './components/AboutMe'
 
 function App() {
 
@@ -15,8 +15,8 @@ function App() {
         <Navbar/>
         <Hero id="home"/>
         <Skills id="skills"/>
-        {/* <Technologies/> */}
         <Projects id="projects"/>
+        <AboutMe id="aboutme"/>
         <Contact id="contact"/>
         <Footer/>
     </>

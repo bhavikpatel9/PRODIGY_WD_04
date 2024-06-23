@@ -1,0 +1,51 @@
+.aboutme-container {
+    padding: 2rem 1rem;
+    color: #fff;
+  }
+  
+  .aboutme-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .aboutme-text {
+    max-width: 600px;
+    position: relative;
+    padding-left: 20px;
+  }
+  
+  .aboutme-text h2 {
+    color: #6f1ee9;
+  }
+  
+  .aboutme-text p {
+    line-height: 1.6;
+  }
+  
+  .education-section {
+    position: relative;
+  }
+  
+  .education-item {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .education-item:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    background-color: #630798;
+    border-radius: 2px;
+  }
+  
+  @media (min-width: 1024px) {
+    .aboutme-content {
+      flex-direction: row;
+    }
+  }
+  

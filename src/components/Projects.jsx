@@ -5,9 +5,7 @@ import AOS from 'aos';
 
 const Projects = ({ id }) => {
   useEffect(() => {
-    AOS.init({
-      duration : "800",
-    });
+    AOS.init();
   }, [])
   return (
     <>

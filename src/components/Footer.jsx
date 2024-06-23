@@ -12,6 +12,7 @@ const Footer = () => {
           <Link to="home" smooth={true} offset={-90} className="cursor-pointer hover:text-purple-400">Home</Link>
           <Link to="skills" smooth={true} className="cursor-pointer hover:text-purple-400">Skills</Link>
           <Link to="projects" smooth={true} className="cursor-pointer hover:text-purple-400">Projects</Link>
+          <Link to="aboutme" offset={-140} smooth={true} className="cursor-pointer hover:text-purple-400">About Me</Link>
           <Link to="contact" smooth={true} className="cursor-pointer hover:text-purple-400">Contact</Link>
         </div>
         <div className="flex justify-center space-x-7 mb-4">

@@ -34,7 +34,12 @@ const handleClick = () => {
             </Link>
           </li>
           <li className="p-5">
-            <Link to="contact" smooth="true" duuration={800} className="cursor-pointer  relative transition duration-150 ease-in-out before:absolute before:left-0 before:bottom-[-0.4rem] before:w-full before:h-1 before:bg-[#a993fe] before:opacity-0 before:transform before:scale-x-0 before:origin-left before:transition before:duration-300 before:ease-in-out hover:before:opacity-100 hover:before:scale-x-100 focus:before:opacity-100 focus:before:scale-x-100 before:rounded-md">
+            <Link to="aboutme" smooth="true" duration={800} offset={-140} className="cursor-pointer  relative transition duration-150 ease-in-out before:absolute before:left-0 before:bottom-[-0.4rem] before:w-full before:h-1 before:bg-[#a993fe] before:opacity-0 before:transform before:scale-x-0 before:origin-left before:transition before:duration-300 before:ease-in-out hover:before:opacity-100 hover:before:scale-x-100 focus:before:opacity-100 focus:before:scale-x-100 before:rounded-md">
+              About Me
+            </Link>
+          </li>
+          <li className="p-5">
+            <Link to="contact" smooth="true" duration={800} className="cursor-pointer  relative transition duration-150 ease-in-out before:absolute before:left-0 before:bottom-[-0.4rem] before:w-full before:h-1 before:bg-[#a993fe] before:opacity-0 before:transform before:scale-x-0 before:origin-left before:transition before:duration-300 before:ease-in-out hover:before:opacity-100 hover:before:scale-x-100 focus:before:opacity-100 focus:before:scale-x-100 before:rounded-md">
               Contact
             </Link>
           </li>
@@ -69,6 +74,9 @@ const handleClick = () => {
             </li>
             <li className="p-2">
             <Link to="projects" smooth="true" duration={800} onClick={handleClick}>Projects</Link>
+            </li>
+            <li className="p-2">
+            <Link to="aboutme" smooth="true" duration={800} offset={-140} onClick={handleClick}>About Me</Link>
             </li>
             <li className="p-2 mb-2">
             <Link to="contact" smooth="true" duration={800} onClick={handleClick}>Contact</Link>
